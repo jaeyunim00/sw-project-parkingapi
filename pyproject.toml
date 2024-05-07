@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sw-project-parkingapi"
+version = "0.1.0"
+description = ""
+authors = ["jaeyunim00 <71920791+jaeyunim00@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.5"
+djangorestframework = "^3.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
